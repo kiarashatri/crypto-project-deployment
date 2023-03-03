@@ -27,10 +27,7 @@ services:
     command: sh -c "npm run serve:dev"
 
   crypto-project-angular:
-    build:
-      context: ./crypto-project-angular
-      dockerfile: Dockerfile
-      target: ${ENVIRONMENT}
+    build: ./crypto-project-angular/_docker/${ENVIRONMENT}
     container_name: "crypto-project-angular"
     volumes:
       - ./crypto-project-angular:/app
@@ -38,7 +35,6 @@ services:
       - internal_network
     ports:
       - ${EXPOSED_FRONTEND_PORT}:${INTERNAL_FRONTEND_PORT}
-    command: sh -c "npm run serve:dev"
 
   crypto-project-db:
     image: postgres:15.2-alpine
@@ -52,4 +48,3 @@ services:
         - POSTGRES_USER=root
         - POSTGRES_PASSWORD=toor
         - POSTGRES_DB=currency_manager
-
