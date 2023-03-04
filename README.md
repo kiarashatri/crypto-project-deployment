@@ -13,7 +13,21 @@ $ git clone git@github.com:kiarashatri/crypto-project-deployment.git --recurse-s
 cd crypto-project-deployment
 ```
 
-**_ Make Sure You Are On Main Branch In all modules _**
+## **_ Make Sure You Are On Main Branch In all modules _**
+
+```bash
+# Swith Main repo to `main` branch
+$ cd crypto-project-deployment
+$ git checkout main
+
+# Swith Frontend repo to `main` branch
+$ cd crypto-project-angular
+$ git checkout main
+
+# Swith Backend repo to `main` branch
+$ cd ../crypto-project-nest
+$ git checkout main
+```
 
 ## Running the app
 
