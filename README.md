@@ -10,6 +10,7 @@ Angular.js + Nest.js + Postgres + typeOrm + Socket.io
 
 ```bash
 $ git clone git@github.com:kiarashatri/crypto-project-deployment.git --recurse-submodules
+cd crypto-project-deployment
 ```
 
 **_ Make Sure You Are On Main Branch In all modules _**
