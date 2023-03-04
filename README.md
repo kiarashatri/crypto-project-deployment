@@ -2,7 +2,7 @@
 
 Fake Currency Manager Project
 
-Live Preview : [http://project.devbykia.ir:3001](http://project.devbykia.ir:3001) <br/>
+Live Preview : [http://91.107.225.77:3001](http://91.107.225.77:3001) <br/>
 
 ## Stacks
 
