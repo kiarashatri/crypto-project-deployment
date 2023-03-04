@@ -2,6 +2,8 @@
 
 Fake Currency Manager Project
 
+Live Preview : [http://project.devbykia.ir:3001](http://project.devbykia.ir:3001) <br/>
+
 ## Stacks
 
 Angular.js + Nest.js + Postgres + typeOrm + Socket.io
@@ -49,7 +51,7 @@ $ npm run test:e2e
 
 ## Documents
 
-Frontend entery point : [localhost:3000](http://localhost:3000) <br/>
+Frontend entery point : [localhost:3001](http://localhost:3001) <br/>
 Swagger Document at : [localhost:4000/docs](http://localhost:4000/docs) <br/>
 Post Man Document at this path : [./`Crypro Currency Project - restful.postman_collection.json`](#) <br/>
 
