@@ -39,4 +39,4 @@ lorem ipsum
 
 ## Stay in touch
 
-- Kiarash Atri - [Email](mail:kiarashatri)
+- Kiarash Atri - [Email](mail:kiarashatri@gmail.com)
