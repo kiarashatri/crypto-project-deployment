@@ -31,6 +31,8 @@ services:
       - ./crypto-project-angular:/app
     networks:
       - internal_network
+    env_file:
+      - ./crypto-project-nest/.env
     ports:
       - ${EXPOSED_FRONTEND_PORT}:${INTERNAL_FRONTEND_PORT}
 
