@@ -20,8 +20,6 @@ services:
       - ${EXPOSED_BACKEND_PORT}:${INTERNAL_BACKEND_PORT}
     networks:
       - internal_network
-    env_file:
-      - ./crypto-project-nest/.env
     depends_on:
       - crypto-project-db
     command: sh -c "npm run serve:dev"
