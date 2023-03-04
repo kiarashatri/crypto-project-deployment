@@ -9,10 +9,7 @@ volumes:
 services:
 
   crypto-project-nest:
-    build:
-      context: ./crypto-project-nest/
-      dockerfile: Dockerfile
-      target: dev
+    build: ./crypto-project-nest/_docker/${ENVIRONMENT}
     container_name: "crypto-project-nest"
     volumes:
       - ./crypto-project-nest:/app
@@ -20,12 +17,9 @@ services:
       - ${EXPOSED_BACKEND_PORT}:${INTERNAL_BACKEND_PORT}
     networks:
       - internal_network
-    env_file:
-      - ./crypto-project-nest/.env
     depends_on:
       - crypto-project-db
-    command: sh -c "npm run serve:dev"
-
+  
   crypto-project-angular:
     build: ./crypto-project-angular/_docker/${ENVIRONMENT}
     container_name: "crypto-project-angular"
