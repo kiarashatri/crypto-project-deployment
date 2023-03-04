@@ -16,9 +16,9 @@ cd crypto-project-deployment
 ## **_ Make Sure You Are On Right Branch In all modules _**
 
 ```bash
-# Swith Main repo to `develop` branch
+# Swith Main repo to `main` branch
 $ cd crypto-project-deployment
-$ git checkout develop
+$ git checkout main
 
 # Swith Frontend repo to `develop` branch
 $ cd crypto-project-angular
@@ -49,6 +49,7 @@ $ npm run test:e2e
 
 ## Documents
 
+Frontend entery point : [localhost:3000](http://localhost:3000) <br/>
 Swagger Document at : [localhost:4000/docs](http://localhost:4000/docs) <br/>
 Post Man Document at this path : [./`Crypro Currency Project - restful.postman_collection.json`](#) <br/>
 
