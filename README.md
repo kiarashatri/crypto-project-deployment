@@ -16,9 +16,9 @@ cd crypto-project-deployment
 ## **_ Make Sure You Are On Right Branch In all modules _**
 
 ```bash
-# Swith Main repo to `main` branch
+# Swith Main repo to `develop` branch
 $ cd crypto-project-deployment
-$ git checkout main
+$ git checkout develop
 
 # Swith Frontend repo to `develop` branch
 $ cd crypto-project-angular
