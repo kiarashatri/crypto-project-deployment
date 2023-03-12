@@ -11,7 +11,7 @@ Angular.js + Nest.js + Postgres + typeOrm + Socket.io
 ## Clone With Submodules
 
 ```bash
-$ git clone git@github.com:kiarashatri/crypto-project-deployment.git --recurse-submodules
+$ git clone https://github.com/kiarashatri/crypto-project-deployment.git --recurse-submodules
 cd crypto-project-deployment
 ```
 
