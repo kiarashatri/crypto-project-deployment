@@ -2,7 +2,6 @@
 
 Fake Currency Manager Project
 
-Live Preview : [http://91.107.225.77:3001](http://91.107.225.77:3001) <br/>
 
 ## Stacks
 
